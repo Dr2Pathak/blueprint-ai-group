@@ -1,0 +1,15 @@
+# Cursor IDE project-specific config (agents, rules, skills)
+.cursor/
+
+# Backup of old nested repo (do not commit)
+**/.git.bak/
+
+# Dependencies and build
+node_modules/
+dist/
+.next/
+out/
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
